@@ -1,0 +1,324 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Test",
+				"abbreviation": "Test",
+				"full": "Test",
+				"url": "Test",
+				"authors": [
+					"Test"
+				],
+				"convertedBy": [
+					"Test"
+				]
+			}
+		],
+		"dateAdded": 1593987502,
+		"dateLastModified": 1593987502
+	},
+	"monster": [
+		{
+			"name": "Nightmare Walker",
+			"source": "Test",
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 16,
+			"wis": 8,
+			"cha": 16,
+			"skill": {
+				"stealth": "+4",
+				"intimidation": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"bludgeoning",
+				"poison",
+				"slashing"
+			],
+			"vulnerable": [
+				"psychic",
+				"radiant"
+			],
+			"conditionImmune": [
+				"grappled",
+				"restrained"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell dissonant whispers}",
+								"{@spell sleep}"
+							],
+							"slots": 3
+						},
+						"2": {
+							"spells": [
+								"{@spell mind spike|XGE}",
+								"{@spell misty step}"
+							],
+							"slots": 2
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Shadow Claw",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Nightmarish Visions",
+					"entries": [
+						"Whenever a Nightmare Walker strikes with a shadow claw, they reduce the targets WIS score by 1. When a target hit by a Nightmare Walker drops to 0 Wisdom, they die and become a Nightmare Walker."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Doomed inhabitants of the plane of Dreams. These creatures walk the night looking to drain the sanity of any sentient creature they cross."
+				]
+			},
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Dreart Kemar",
+			"source": "Test",
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d12 + 60",
+				"average": 190
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 16,
+			"int": 26,
+			"wis": 18,
+			"cha": 20,
+			"save": {
+				"cha": "+10",
+				"int": "+13",
+				"str": "+10"
+			},
+			"skill": {
+				"arcana": "+18",
+				"deception": "+10",
+				"history": "+18",
+				"intimidation": "+10",
+				"investigation": "+13",
+				"perception": "+9",
+				"persuasion": "+10",
+				"nature": "+18"
+			},
+			"senses": [
+				"truesight 60 ft."
+			],
+			"passive": 19,
+			"resist": [
+				"force",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"psychic",
+				"thunder"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"stunned"
+			],
+			"languages": [
+				"All Known"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell levitate}",
+						"{@spell misty step}"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell command}",
+								"{@spell detect magic}",
+								"{@spell disguise self}",
+								"{@spell dissonant whispers}",
+								"{@spell feather fall}",
+								"{@spell mage armor}",
+								"{@spell Tasha's hideous laughter}"
+							],
+							"slots": 8
+						},
+						"2": {
+							"spells": [
+								"{@spell crown of madness}",
+								"{@spell enthrall}",
+								"{@spell heat metal}",
+								"{@spell locate object}"
+							],
+							"slots": 4
+						},
+						"3": {
+							"spells": [
+								"{@spell call lightning}",
+								"{@spell dispel magic}",
+								"{@spell fireball}",
+								"{@spell major image}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell compulsion}",
+								"{@spell fabricate}",
+								"{@spell hallucinatory terrain}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Bigby's hand}",
+								"{@spell dominate person}",
+								"{@spell modify memory}",
+								"{@spell teleportation circle}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell mental prison|XGE}"
+							],
+							"slots": 2
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Staff Strike",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}17 ({@damage 1d8 + 13}) damage."
+					]
+				},
+				{
+					"name": "Mind Strike",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}17 ({@damage 1d8 + 13}) damage, plus 8 ({@damage 1d6 + 5}) Psycic damage.",
+						"Target must make an INT saving throw {@dc 15} or lose 1 INT for the next hour. A creature brought to 0 INT becomes Dreart Kemars thrall."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Dominate Mind",
+					"entries": [
+						"Any creature who holds Dreart Kemar for more then 6 seconds will need to make a WIS saving throw against Dreart Kemars INT roll. On a failure Dreart completely dominates this persons body and he uses it as his own gaining all abilities they had and adopting their physical stats.",
+						"A body he has dominated but lost physical contact with will fall into a stupor for 24 hours and then become free if they do not make contact with him again."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Whirling Strike",
+					"entries": [
+						"Dreart Kemar expertly spins his staff striking out at any creature he wishes to that is within 10 ft of him. ",
+						"All creatures he targets must make a DEX saving throw {@dc 18} or be struck by Mind Strike"
+					]
+				},
+				{
+					"name": "Mind Blast (Recharge 5–6).",
+					"entries": [
+						"Dreart Kemar magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or take 22 ({@damage 4d8 + 4}) psychic damage and be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Mental Download",
+					"entries": [
+						"Whenever Dreart Kemar drains INT from a creature he may use a legendary action to copy one memory, ability, or spell they poses. "
+					]
+				}
+			],
+			"senseTags": [
+				"U"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"stunned"
+			]
+		}
+	]
+}
