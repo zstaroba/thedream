@@ -1,0 +1,425 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheDreamingLands",
+				"abbreviation": "TDL",
+				"full": "The Dreaming Lands",
+				"url": "",
+				"authors": [
+					"Zach S"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1594590849,
+		"dateLastModified": 1594590849
+	},
+	"monster": [
+		{
+			"name": "Bazinga McClown",
+			"shortName": "Bazinga",
+			"source": "TheDreamingLands",
+			"level": 11,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 16,
+			"int": 12,
+			"wis": 18,
+			"cha": 10,
+			"save": {
+				"dex": "+8",
+				"wis": "+8"
+			},
+			"skill": {
+				"acrobatics": "+12",
+				"animal handling": "+12",
+				"nature": "+9",
+				"survival": "+12"
+			},
+			"passive": 14,
+			"cr": "0",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"3": {
+							"spells": [
+								"{@spell gaseous form}",
+								"{@spell wind wall}"
+							],
+							"slots": 2
+						}
+					},
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell faerie fire}",
+								"{@spell fog cloud}",
+								"{@spell hunter's mark}"
+							],
+							"slots": 4
+						}
+					},
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"2": {
+							"spells": [
+								"{@spell locate object}",
+								"{@spell pass without trace}",
+								"{@spell web}"
+							],
+							"slots": 3
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Writhing\tTide",
+					"entries": [
+						"7th-level\tSwarmkeeper\tfeature",
+						"You\tcan\tcondense\tpart\tof\tyour\tswarm\tinto\ta\t",
+						"focused\tmass\tthat\tlifts\tor\tsweeps\tyou\talong.\t",
+						"Whenever you\tactivate\tyour\tGathered\tSwarm\t",
+						"feature,\tchoose\tone\tof\tthe\tfollowing\tadditional\t",
+						"benefits:",
+						"• Your\twalking\tspeed\tincreases\tby\t10\tfeet, and\t",
+						"you\tcan\ttake\tthe\tDisengage\taction\tas\ta\tbonus\t",
+						"action.",
+						"• You\tgain\ta\tclimb\tspeed\tequal\tto\tyour\twalking\t",
+						"speed.\tYou\tcan\tclimb\tdifficult\tsurfaces,\t",
+						"including\tupside\tdown\ton\tceilings,\twithout\t",
+						"making\tan\tability\tcheck.",
+						"• You\tgain\ta\tflying\tspeed\tof\t10\tfeet\tand\tcan\t",
+						"hover."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"As\ta\tbonus\taction,\tyou\tcan\tagitate\tthe\tswarm\t",
+						"for\t1\tminute.\tFor\tthe\tduration,\tsome\tof\tthe\t",
+						"swarm\tclings to\tyour\tweapons\tor\tfollows your\t",
+						"strikes\twhen\tyou\tattack:\tonce\tduring\teach\tof\t",
+						"your\tturns when\tyou\thit\ta\tcreature\twith\ta\t",
+						"weapon\tattack,\tyou can deal\tan\textra\t{@dice 1d6}\tforce\t",
+						"damage to\tthat\tcreature,\tand\tthe\tswarm\tmoves\t",
+						"the\tcreature\tup\tto\t5\tfeet\ttoward\tyou\tor\taway\t",
+						"from\tyou\t(your\tchoice).\tAt\t11th\tlevel,\tthe\textra\t",
+						"damage\tincreases\tto\t{@dice 2d6}.",
+						"You\tcan\tuse\tthis\tfeature\ta\tnumber\tof\ttimes\t",
+						"equal\tto\tyour\tWisdom\tmodifier\t(minimum\tof\t",
+						"once),\tand\tyou\tregain\tall\texpended\tuses\twhen\t",
+						"you\tfinish\ta\tlong\trest."
+					]
+				},
+				{
+					"name": "Revenant",
+					"entries": [
+						"Whenever this creature is brought to 0 HP it turns into a gaseous form and flies back to the Aces High. It reforms the dawn of the next day."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multi Attack",
+					"entries": [
+						"Bazinga can attack twice per turn"
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}11 ({@damage 1d4 + 9}) piercing damage in melee, or 11 ({@damage 1d4 + 9}) piercing damage at range."
+					]
+				},
+				{
+					"name": "Daggershooter",
+					"entries": [
+						"• Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.",
+						"• Your ranged weapons ignore half cover and three-quarters cover.",
+						"• Before you make a ranged attack with a ranged weapon with which you are proficient, you can choose to take a -5 penalty to the attack roll. If you do so and the attack hits, it deals +10 damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A masked halfing who overuses the catchphrase \"Bazinga!\" ",
+					"He is a swarmkeeper like Bazupi, however his swarm is a swarm of flies and he can summon a large bloated flie named Beelz"
+				]
+			},
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Far Bright",
+			"source": "TheDreamingLands",
+			"level": 11,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item shield|phb}",
+						"{@item half plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 44",
+				"average": 93
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 18,
+			"con": 18,
+			"int": 12,
+			"wis": 10,
+			"cha": 14,
+			"save": {
+				"con": "+8",
+				"dex": "+8"
+			},
+			"skill": {
+				"perception": "+4",
+				"athletics": "+8",
+				"acrobatics": "+8"
+			},
+			"passive": 14,
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Revived Nature",
+					"entries": [
+						"You\thave\tadvantage\ton\tsaving\tthrows\tagainst\t",
+						"disease\tand\tbeing\t{@condition poisoned},\tand\tyou\thave\t",
+						"resistance\tto\tpoison\tdamage.",
+						"You\tdon’t\tneed\tto\teat,\tdrink,\tor\tbreathe."
+					]
+				},
+				{
+					"name": "Second Wind",
+					"entries": [
+						"You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to {@dice 1d10} + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
+					]
+				},
+				{
+					"name": "Revenant",
+					"entries": [
+						"Whenever this creature is brought to 0 HP it turns into a gaseous form and flies back to the Aces High. It reforms the dawn of the next day."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Extra Attack",
+					"entries": [
+						"Far Bright can attack up to three times per turn."
+					]
+				},
+				{
+					"name": "Sword Strike",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Drab Blowgun",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Martial Adept",
+					"entries": [
+						"You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:",
+						"1. You learn two maneuvers of your choice from among those available to the Battle Master archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
+						"2. You gain one superiority die, which is a {@dice d6} (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
+					]
+				},
+				{
+					"name": "Action Surge",
+					"entries": [
+						"you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Rexus",
+			"source": "TheDreamingLands",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item chain mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 33",
+				"average": 82
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 16,
+			"int": 14,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"cha": "+8",
+				"wis": "+5"
+			},
+			"skill": {
+				"arcana": "+6",
+				"deception": "+8",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"cr": "0",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"5": {
+							"spells": [
+								"{@spell alter self}",
+								"{@spell animate dead}",
+								"{@spell banishment}",
+								"{@spell bestow curse}",
+								"{@spell chill touch}",
+								"{@spell dimension door}",
+								"{@spell minor illusion}",
+								"{@spell misty step}",
+								"{@spell raise dead}",
+								"{@spell searing smite}",
+								"{@spell Tasha's hideous laughter}",
+								"{@spell thunder step|XGE}",
+								"{@spell toll the dead|XGE}"
+							],
+							"slots": 3,
+							"lower": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Accursed Specter",
+					"entries": [
+						"Starting at 6th level, you can curse the soul of a person you slay, temporarily binding it in your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a specter. When the specter appears, it gains temporary hit points equal to half your warlock level. Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (minimum of +0).",
+						"The specter remains in your service until the end of your next long rest, at which point it vanishes to the afterlife.",
+						"Once you bind a specter with this feature, you can't use the feature again until you finish a long rest."
+					]
+				},
+				{
+					"name": "Revenant",
+					"entries": [
+						"Whenever this creature is brought to 0 HP it turns into a gaseous form and flies back to the Aces High. It reforms the dawn of the next day."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Hexblades Curse",
+					"entries": [
+						"Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are {@condition incapacitated}. Until the curse ends, you gain the following benefits:",
+						"• You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.",
+						"• Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the {@dice d20}.",
+						"• If the cursed target dies, you regain hit points equal to your warlock level + your Charisma modifier (minimum of 1 hit point).",
+						"You can’t use this feature again until you finish a short or long rest."
+					]
+				},
+				{
+					"name": "Green Flameblade",
+					"entries": [
+						"Make an attack",
+						"Deal {@damage 2d8} Fire damage to up to 2 more targets that leaps up to 5ft from target to target. "
+					]
+				},
+				{
+					"name": "Eldritch Smite",
+					"entries": [
+						"Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra {@damage 1d8} force damage to the target, plus another {@dice 1d8} per level of the spell slot, and you can knock the target {@condition prone} if it is Huge or smaller."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Sentinel",
+					"entries": [
+						" Whenever you hit a creature with an opportunity attack, its speed drops to 0 for the rest of the turn. This stops any movement they may have been taking.",
+						"• Creatures within your reach provoke opportunity attacks even if they took the Disengage action.",
+						"• When a creature within your reach makes an attack against a target other than you (and that target doesn't have this feat), you can use your reaction to make a melee weapon attack against the attacking creature."
+					]
+				},
+				{
+					"name": "Armor of Hexes",
+					"entries": [
+						"If the target cursed by your Hexblade’s Curse hits you with an attack roll, roll a {@dice d6}. On a 4 or higher, the attack instead misses you, regardless of its roll."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			]
+		}
+	]
+}
